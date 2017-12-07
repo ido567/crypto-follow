@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: Crypto Follow
   description: An API for Crypto Follow site
-host: cryptoFollow.dev
+host: crypto-follow.dev
 basePath: /v2
 schemes:
 - https
