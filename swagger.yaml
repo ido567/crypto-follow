@@ -4,7 +4,7 @@ info:
   title: Crypto Follow
   description: An API for Crypto Follow site
 host: crypto-follow.dev
-basePath: /v2
+basePath: /v1
 schemes:
 - https
 paths:
