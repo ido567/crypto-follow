@@ -6,7 +6,7 @@ info:
 host: cryptoFollow.dev
 basePath: /v2
 schemes:
-- http
+- https
 paths:
   /assets:
     get: 
