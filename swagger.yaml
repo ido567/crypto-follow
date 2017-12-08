@@ -21,6 +21,13 @@ paths:
             type: array
             items:
               $ref: '#/definitions/Asset'
+          examples:
+            'application/json':
+              id: '69c1fee0-34bd-4045-8024-1864e6eff03e'
+              name: bitcoin
+              symbol: BTC
+              created_at: '2017-07-08 08:46:34'
+              updated_at: '2017-07-08 08:46:34'
     post:
       summary: Create an asset
       operationId: createAseet
@@ -202,7 +209,7 @@ definitions:
       id:
         type: integer
         readOnly: true
-        example: 69c1fee0-34bd-4045-8024-1864e6eff03e
+        example: '69c1fee0-34bd-4045-8024-1864e6eff03e'
       name:
         type: string
         example: bitcoin
@@ -226,7 +233,7 @@ definitions:
       id:
         type: integer
         readOnly: true
-        example: 69c1fee0-34bd-4045-8024-1864e6eff03e
+        example: '69c1fee0-34bd-4045-8024-1864e6eff03e'
       source:
         type: string
         enum: 
@@ -234,4 +241,4 @@ definitions:
         example: twitter
       external_id:
         type: string
-        example: 69c1fee0-34bd-4045-8024-1864e6eff03e
+        example: '69c1fee0-34bd-4045-8024-1864e6eff03e'
